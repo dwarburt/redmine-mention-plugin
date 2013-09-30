@@ -1,3 +1,22 @@
 = Redmine Mention Plugin
 
-Add user to the watchers list of an issue after mentioning him/her in the note. The syntax is "@username".
+Add user to the watchers list of an issue after mentioning him/her in the note. The syntax is "@username" or "@user.name".
+
+
+= Installation
+
+Just clone the plugin into your plugins dir and restart Redmine.
+No further changes are required, it should Just Work.
+
+
+= Fork by bigpresh to add Redmine 2.x support
+
+This version has been forked to add Redmine 2.x support; hopefully this 
+Redmine 2.x version may be merged back upstream at some point.
+
+= Fork by jbekker
+
+This version adds autocompletion when mentioning a user on a issue.
+
+= Fork by diegotdai
+This version matches @username as well as @user.name
